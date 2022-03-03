@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대소문자 상호 변환기</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="content">
+            <header id="header">
+                <h1>대소문자 상호 변환기</h1>
+            </header>
+            <section id="contents">
+                <div class="대문자">
+                    <h2>소문자를 대문자로</h2>
+                    <textarea class="input" name="input1" onkeyup="text_print()" placeholder="소문자를 입력하세요"></textarea>
+                    <textarea name="txtarea" readonly></textarea>
+                </div>
+                <div class="소문자">
+                    <h2>대문자를 소문자로</h2>
+                    <textarea class="input2" name="input2" onkeyup="text_print()" placeholder="대문자를 입력하세요"></textarea>
+                    <textarea name="txtarea2" readonly></textarea>
+                </div>
+            </section>
+            <footer id="footer">
+                © Wdev.kr All Rights Reserved.
+            </footer>
+        </div>
+    </div>
+    <script src="common.js"></script>
+</body>
+</html>
